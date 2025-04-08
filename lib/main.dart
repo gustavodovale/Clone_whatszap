@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
         title: const Text('Minha Página Inicial'),
       ),
       body: const Center(
-        child: Text('Olá, Flutter!'),
+        child: Text('Olá, fufnwjnicme!'),
       ),
     );
 }
