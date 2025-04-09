@@ -7,14 +7,14 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Whatszapp',
       theme: ThemeData(
         primaryColor: const Color(0xFF075E54),
-        scaffoldBackgroundColor: const Color(0xFFECE5DD), // fundo da tela
+        scaffoldBackgroundColor: const Color(0xFFECE5DD),
         appBarTheme: const AppBarTheme(
           backgroundColor: Color(0xFF075E54),
           titleTextStyle: TextStyle(
@@ -45,7 +45,7 @@ class Home extends StatelessWidget {
           Card(
             child: ListTile(
               leading: Icon(Icons.person),
-              title: Text('Contato 1'),
+              title: Text('Eu'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
@@ -54,7 +54,7 @@ class Home extends StatelessWidget {
           Card(
             child: ListTile(
               leading: Icon(Icons.person),
-              title: Text('Contato 2'),
+              title: Text('Anderson'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
@@ -63,7 +63,70 @@ class Home extends StatelessWidget {
           Card(
             child: ListTile(
               leading: Icon(Icons.person),
-              title: Text('Contato 3'),
+              title: Text('Lucas'),
+              subtitle: Text('Mensagem recente...'),
+              trailing: Icon(Icons.chat),
+            ),
+          ),
+           SizedBox(height: 10),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text('Lucas'),
+              subtitle: Text('Mensagem recente...'),
+              trailing: Icon(Icons.chat),
+            ),
+          ),
+           SizedBox(height: 10),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text('Lucas'),
+              subtitle: Text('Mensagem recente...'),
+              trailing: Icon(Icons.chat),
+            ),
+          ),
+           SizedBox(height: 10),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text('Lucas'),
+              subtitle: Text('Mensagem recente...'),
+              trailing: Icon(Icons.chat),
+            ),
+          ),
+           SizedBox(height: 10),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text('Lucas'),
+              subtitle: Text('Mensagem recente...'),
+              trailing: Icon(Icons.chat),
+            ),
+          ),
+           SizedBox(height: 10),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text('Lucas'),
+              subtitle: Text('Mensagem recente...'),
+              trailing: Icon(Icons.chat),
+            ),
+          ),
+           SizedBox(height: 10),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text('Lucas'),
+              subtitle: Text('Mensagem recente...'),
+              trailing: Icon(Icons.chat),
+            ),
+          ),
+           SizedBox(height: 10),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text('Lucas'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
