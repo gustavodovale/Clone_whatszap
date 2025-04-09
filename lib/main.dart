@@ -52,19 +52,18 @@ class Home extends StatelessWidget {
         ],
       ),
       body: ListView(
-        padding:  const EdgeInsets.only(top: 5),
+        padding:  const EdgeInsets.only(top: 1),
         children: const [
           Card(
             child: ListTile(
               leading: CircleAvatar(
-              radius: 25,
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
               title: Text('Anderson'),
               subtitle: Text('Mensagem recente...'),
-              trailing: Icon(Icons.chat),
+              
             ),
           ),
-          SizedBox(height: 10),
+       
           Card(
             child: ListTile(
               leading: CircleAvatar(
@@ -72,10 +71,10 @@ class Home extends StatelessWidget {
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
               title: Text('joão'),
               subtitle: Text('Mensagem recente...'),
-              trailing: Icon(Icons.chat),
+              
             ),
           ),
-          SizedBox(height: 10),
+       
           Card(
             child: ListTile(
               leading: CircleAvatar(
@@ -83,10 +82,10 @@ class Home extends StatelessWidget {
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
               title: Text('silva'),
               subtitle: Text('Mensagem recente...'),
-              trailing: Icon(Icons.chat),
+              
             ),
           ),
-           SizedBox(height: 10),
+        
           Card(
             child: ListTile(
               leading: CircleAvatar(
@@ -94,10 +93,10 @@ class Home extends StatelessWidget {
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
               title: Text('alberto'),
               subtitle: Text('Mensagem recente...'),
-              trailing: Icon(Icons.chat),
+              
             ),
           ),
-           SizedBox(height: 10),
+        
           Card(
             child: ListTile(
               leading: CircleAvatar(
@@ -105,10 +104,10 @@ class Home extends StatelessWidget {
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
               title: Text('sanderson'),
               subtitle: Text('Mensagem recente...'),
-              trailing: Icon(Icons.chat),
+              
             ),
           ),
-           SizedBox(height: 10),
+        
           Card(
             child: ListTile(
               leading: CircleAvatar(
@@ -116,10 +115,10 @@ class Home extends StatelessWidget {
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
               title: Text('matheus'),
               subtitle: Text('Mensagem recente...'),
-              trailing: Icon(Icons.chat),
+              
             ),
           ),
-           SizedBox(height: 10),
+        
           Card(
             child: ListTile(
               leading: CircleAvatar(
@@ -127,10 +126,10 @@ class Home extends StatelessWidget {
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
               title: Text('Familia'),
               subtitle: Text('Mensagem recente...'),
-              trailing: Icon(Icons.chat),
+              
             ),
           ),
-           SizedBox(height: 10),
+        
           Card(
             child: ListTile(
               leading: CircleAvatar(
@@ -138,10 +137,10 @@ class Home extends StatelessWidget {
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
               title: Text('Gustavo'),
               subtitle: Text('Mensagem recente...'),
-              trailing: Icon(Icons.chat),
+              
             ),
           ),
-           SizedBox(height: 10),
+        
           Card(
             child: ListTile(
               leading: CircleAvatar(
@@ -149,7 +148,7 @@ class Home extends StatelessWidget {
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
               title: Text('Nicolas'),
               subtitle: Text('Mensagem recente...'),
-              trailing: Icon(Icons.chat),
+              
             ),
           ),
            SizedBox(height: 10),
@@ -160,7 +159,7 @@ class Home extends StatelessWidget {
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
               title: Text('Tropa dos 4'),
               subtitle: Text('Mensagem recente...'),
-              trailing: Icon(Icons.chat),
+              
             ),
           ),
         ],
