@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Whatszapp',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.light,
         primaryColor: Colors.white,
@@ -39,9 +40,19 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Whatszapp'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.camera_alt_outlined), color: Color.fromARGB(255, 0, 0, 0),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: const Icon(Icons.more_vert), color: Color.fromARGB(255, 0, 0, 0),
+            onPressed: () {},
+          ),
+        ],
       ),
       body: ListView(
-        padding:  const EdgeInsets.only(top: 1),
+        padding:  const EdgeInsets.only(top: 5),
         children: const [
           Card(
             child: ListTile(
@@ -59,7 +70,7 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(
               radius: 25,
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
-              title: Text('Anderson'),
+              title: Text('joão'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
@@ -70,7 +81,7 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(
               radius: 25,
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
-              title: Text('Anderson'),
+              title: Text('silva'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
@@ -81,7 +92,7 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(
               radius: 25,
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
-              title: Text('Anderson'),
+              title: Text('alberto'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
@@ -92,7 +103,7 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(
               radius: 25,
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
-              title: Text('Anderson'),
+              title: Text('sanderson'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
@@ -103,7 +114,7 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(
               radius: 25,
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
-              title: Text('Anderson'),
+              title: Text('matheus'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
@@ -114,7 +125,7 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(
               radius: 25,
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
-              title: Text('Anderson'),
+              title: Text('Familia'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
@@ -125,7 +136,7 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(
               radius: 25,
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
-              title: Text('Anderson'),
+              title: Text('Gustavo'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
@@ -136,7 +147,7 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(
               radius: 25,
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
-              title: Text('Anderson'),
+              title: Text('Nicolas'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
@@ -147,7 +158,7 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(
               radius: 25,
               backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwTfP0KVPfRBPIkaNWuOyGBmVN0TzlXMSA&s'),),
-              title: Text('Anderson'),
+              title: Text('Tropa dos 4'),
               subtitle: Text('Mensagem recente...'),
               trailing: Icon(Icons.chat),
             ),
