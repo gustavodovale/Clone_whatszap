@@ -13,16 +13,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Whatszapp',
       theme: ThemeData(
-        primaryColor: const Color(0xFF075E54),
+        brightness: Brightness.light,
+        primaryColor: Colors.white,
         scaffoldBackgroundColor: const Color(0xFFECE5DD),
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFF075E54),
+          backgroundColor:  Colors.white,
           titleTextStyle: TextStyle(
-            color: Colors.white,
+            color: Color(0xFF075E54),
             fontSize: 20,
             fontWeight: FontWeight.bold,
           ),
-          iconTheme: IconThemeData(color: Colors.white),
+          iconTheme: IconThemeData(color: Color(0xFF075E54)), elevation: 1
         ),
       ),
       home: const Home(),
