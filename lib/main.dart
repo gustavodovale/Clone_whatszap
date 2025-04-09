@@ -11,10 +11,24 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData( primarySwatch: Colors.blue,),
+      title: 'Whatszapp',
+      theme: ThemeData(
+        primaryColor: const Color(0xFF075E54),
+        scaffoldBackgroundColor: const Color(0xFFECE5DD), // fundo da tela
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color(0xFF075E54),
+          titleTextStyle: TextStyle(
+            color: Colors.white,
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          ),
+          iconTheme: IconThemeData(color: Colors.white),
+        ),
+      ),
       home: const Home(),
-      );}}
+    );
+  }
+}
         
 class Home extends StatelessWidget {
   const Home ({super.key});
@@ -23,10 +37,38 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Minha Página Inicial'),
+        title: const Text('Whatszapp'),
       ),
-      body: const Center(
-        child: Text('Olá, fufnwjnicme!'),
+      body: ListView(
+        padding:  const EdgeInsets.only(top: 1),
+        children: const [
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text('Contato 1'),
+              subtitle: Text('Mensagem recente...'),
+              trailing: Icon(Icons.chat),
+            ),
+          ),
+          SizedBox(height: 10),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text('Contato 2'),
+              subtitle: Text('Mensagem recente...'),
+              trailing: Icon(Icons.chat),
+            ),
+          ),
+          SizedBox(height: 10),
+          Card(
+            child: ListTile(
+              leading: Icon(Icons.person),
+              title: Text('Contato 3'),
+              subtitle: Text('Mensagem recente...'),
+              trailing: Icon(Icons.chat),
+            ),
+          ),
+        ],
       ),
     );
 }
